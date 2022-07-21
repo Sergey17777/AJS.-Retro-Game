@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode development",
     "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
@@ -18,33 +18,34 @@
     "type": "git",
     "url": "git+https://github.com/Sergey17777/AJS.-Retro-Game.git"
   },
-  "author": "svg",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sergey17777/AJS.-Retro-Game/issues"
   },
-  "homepage": "https://github.com/Sergey17777/AJS.-Retro-Game#readme"
-},
-"devDependencies": {
-"@babel/cli": "^7.8.4",
-"@babel/core": "^7.9.0",
-"@babel/preset-env": "^7.9.5",
-"babel-jest": "^25.4.0",
-"babel-loader": "^8.1.0",
-"css-loader": "^3.5.3",
-"eslint": "^6.8.0",
-"eslint-config-airbnb-base": "^14.1.0",
-"eslint-plugin-import": "^2.20.2",
-"html-loader": "^1.1.0",
-"html-webpack-plugin": "^4.2.0",
-"jest": "^25.4.0",
-"live-server": "^1.2.1",
-"mini-css-extract-plugin": "^0.9.0",
-"webpack": "^4.43.0",
-"webpack-cli": "^3.3.11",
-"webpack-dev-server": "^3.11.0"
-},
-"dependencies": {
-"core-js": "^3.6.5"
-}
+  "homepage": "https://github.com/Sergey17777/AJS.-Retro-Game#readme",
+  "author": "svg",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "favicons-webpack-plugin": "^4.2.0",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "jest": "^25.5.4",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
 }
