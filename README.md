@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/7wv4fyw03hlvmblb/branch/master?svg=true)](https://ci.appveyor.com/project/homutovan/ajs-diploma/branch/master)
+
 
 # AJS. Retro Game
 
